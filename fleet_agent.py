@@ -2,7 +2,7 @@ import os
 import json
 import re
 import pandas as pd
-import Streamlit as st
+import streamlit as st
 import plotly.graph_objects as go
 import plotly.express as px
 from plotly.subplots import make_subplots
@@ -10,7 +10,7 @@ from dotenv import load_dotenv
 from groq import Groq
 
 # 頁面配置
-st.set_page_config(page_title="饗賓倉儲物流 AI 營運 Agent (自動鎖定固定儲存格版)", layout="wide", page_icon="🚛")
+st.set_page_config(page_title="饗賓倉儲物流 AI 營運 Agent (固定儲存格對齊版)", layout="wide", page_icon="🚛")
 
 load_dotenv()
 
